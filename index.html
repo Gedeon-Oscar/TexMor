@@ -1,0 +1,71 @@
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width-device-width,initial-scale=1">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <title>Morse Task</title>
+
+            <!-- Fontawesome -->
+        <link href="fontawesome-free-5.15.3-web/css/all.css" rel="stylesheet">
+        <link rel="stylesheet" href="css/font-awesome.min.css" />
+            <!-- Bootstrap core CSS -->
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+
+<style>
+    .bd-placeholder-img {
+      font-size: 1.125rem;
+      text-anchor: middle;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      user-select: none;
+    }
+
+    @media (min-width: 768px) {
+      .bd-placeholder-img-lg {
+        font-size: 3.5rem;
+      }
+    }
+  </style>
+
+  <!-- Custom styles for this template -->
+  <link href="stylesheet.css" rel="stylesheet">
+  
+  
+
+    </head>
+    <body>
+
+        <section>
+          <div class="container-fluid fixed-top"></div>
+
+          <div class="px-5 py-5 my-5 text-center container" id="CONTENT_HOLDER">
+
+            <button type="button" class="btn fw-bolder btn-lg px-5 rounded-5">TexMor Translator</button>
+
+              <div class="container d-flex justify-content-around align-items-center">
+
+                <textarea name="message" id="normalText" required="required" class="form-control text_entery_normalText" rows="5" placeholder="Enter your normal text..."></textarea>
+              
+                <textarea name="message" id="morseText" required="required" class="form-control text_entery_morseText" rows="5" placeholder="Receive your morse-text..."></textarea>
+              
+              </div>
+            
+              <button type="button" class="btn btn-lg px-5" id="TRANSLATE_BUTTON" onclick= "translateTwoMorse()">Translate</button>
+
+          </div>
+
+          <div class="container-fluid fixed-bottom">
+            <p class="text-center text-light mt-2 fw-bolder">&copy; 2021 <strong class="lead">TexMor Translator</strong></p>
+          </div>
+        </section>  
+        
+<!--Source files-->
+    <!--Translator Scripting-->
+    <script src="translate.js"></script>
+    <!--jquery source file-->
+    <script src="jquery/jquery-3.3.1.min.js"></script> 
+    <!--Bootstrap file(subsuition for the Proper.js file)-->
+    <script src="js/bootstrap.bundle.min.js"></script>
+
+    </body>
+</html>

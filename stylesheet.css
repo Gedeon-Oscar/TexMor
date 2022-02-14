@@ -1,0 +1,96 @@
+body{
+  border-left: 3rem solid #1f9aff;
+  border-right: 3rem solid rgb(255, 3, 87);
+
+  background-image: linear-gradient(to right, rgb(255, 3, 87) , #1f9aff );
+}
+
+/*Page Headers
+-------------------------------------------------------------------------------
+*/
+.fixed-top{
+  height: 3rem;
+  background-color: rgb(255, 3, 87);
+}
+.fixed-bottom{
+  background-color: #1f9aff;
+  height: 3rem;
+}
+
+/*Page Content Holder 
+-------------------------------------------------------------------------------
+*/
+div#CONTENT_HOLDER{
+  position: relative;
+  top: 50px;
+}
+
+/*Page Content Title
+-------------------------------------------------------------------------------
+*/
+.btn{
+  font-size: 45px;
+  color: rgb(255,255,255);
+  background-color: rgb(0,0,0);
+}
+.btn:hover{
+  font-size: 45px;
+  font-weight: bold;
+  color: rgb(255,255,255);
+  background-color: rgb(0,0,0);
+}
+
+/*Page Input styling
+-------------------------------------------------------------------------------
+*/
+.form-control{
+  margin-top: 25px;
+  width: 500px;
+  height: 150px;
+
+  border: thin solid rgb(0,0,0);
+  background-color: rgb(0,0,0);
+}
+.text_entery_normalText:hover{
+  background-color: rgb(0,0,0);
+  border: thick solid #1f9aff;
+  color: #1f9aff;
+}
+.text_entery_morseText:hover{
+  background-color: rgb(0,0,0);
+  border: thick solid rgb(255, 3, 87);
+  color: rgb(255, 3, 87);
+}
+.text_entery_normalText:active{
+  background-color: rgb(0,0,0);
+  border: thick solid #1f9aff;
+  color: #1f9aff;
+}
+.text_entery_morseText:active{
+  background-color: rgb(0,0,0);
+  border: thick solid rgb(255, 3, 87);
+  color: rgb(255, 3, 87);
+}
+
+/*Page Submit(Translate) Button
+-------------------------------------------------------------------------------
+*/
+#TRANSLATE_BUTTON{
+  font-size: 25px;
+  font-weight: bold;
+  margin-top: 25px;
+
+  color: rgb(255,255,255);
+  background-color: rgb(0,0,0);
+  border: thin solid rgb(0,0,0);
+}
+#TRANSLATE_BUTTON:hover{
+  font-weight: bold;
+  color: rgb(255,255,255);
+  border: thin solid rgb(255,255,255);
+  background-image: linear-gradient(to right, rgb(255, 3, 87) , #1f9aff );
+}
+#TRANSLATE_BUTTON:active{
+  font-size: 30px;
+}
+
